@@ -154,14 +154,6 @@ fun SettingsScreen(container: AppContainer) {
         TextButton(onClick = { context.open("https://api.rule34.xxx/") }) {
             Text("Условия API")
         }
-
-        Text("О приложении", style = MaterialTheme.typography.titleMedium)
-        Text(
-            "Неофициальный клиент rule34.xxx. Сайт и его владельцы к приложению отношения не имеют. " +
-                "В Google Play его нет: площадка ограничивает такой контент. " +
-                "Ключ хранится только на устройстве. Контент для людей старше 18 лет.",
-            style = MaterialTheme.typography.bodyMedium,
-        )
     }
 
     if (confirmClear) {

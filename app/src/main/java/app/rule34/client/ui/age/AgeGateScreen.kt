@@ -29,7 +29,7 @@ fun AgeGateScreen(onConfirm: () -> Unit) {
         Column(Modifier.widthIn(max = 480.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
             Text("Только 18+", style = MaterialTheme.typography.headlineLarge)
             Text(
-                "Здесь взрослые рисунки и видео с rule34.xxx. Приложение не связано с сайтом. " +
+                "Здесь взрослые рисунки и видео с rule34.xxx. " +
                     "Дальше можно идти только если вам уже есть 18 лет.",
                 style = MaterialTheme.typography.bodyLarge,
             )
